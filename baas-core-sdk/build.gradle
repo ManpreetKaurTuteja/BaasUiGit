@@ -5,7 +5,8 @@ plugins {
     id 'kotlin-kapt'
     id 'maven-publish'
 }
-
+group 'com.payu.baasSampleApp'
+version '0.1.2'
 android {
     compileSdkVersion 31
 
@@ -33,6 +34,9 @@ android {
     }
     dataBinding {
         enabled = true
+    }
+    lintOptions {
+        abortOnError false
     }
 }
 
@@ -92,7 +96,7 @@ afterEvaluate {
                 from components.release
                 groupId = "com.payu.baasSampleApp"
                 artifactId = 'baasSampleApp'
-                version = '1.0'
+                version = '0.1.2'
             }
         }
     }

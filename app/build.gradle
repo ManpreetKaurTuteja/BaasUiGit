@@ -8,7 +8,9 @@ android {
 //        buildConfig = true
 //    }
     compileSdkVersion 31
-
+    lintOptions {
+        abortOnError false
+    }
     defaultConfig {
         applicationId "com.payu.baasSampleApp"
 //        applicationId "com.karza.face.liveness"
