@@ -92,11 +92,21 @@ dependencies {
 afterEvaluate {
     publishing {
         publications {
-            release(MavenPublication) {
-                from components.release
-                groupId = "com.payu.baasSampleApp"
-                artifactId = 'baasSampleApp'
-                version = '0.1.2'
+//            release(MavenPublication) {
+//                from components.release
+//                groupId = "com.payu.baasSampleApp"
+//                artifactId = 'baasSampleApp'
+//                version = '0.1.2'
+//            }
+        }
+        repositories {
+            maven {
+                name = "BaaSUiGit" //  optional target repository name
+                url = "https://github.com/ManpreetKaurTuteja"
+                credentials {
+                    username = 'ManpreetKaurTuteja'
+                    password = 'Easy@2600'
+                }
             }
         }
     }
