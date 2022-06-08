@@ -288,11 +288,11 @@
     <string name="clevertap_account_id">CLEVERTAP_ACCOUNT_ID</string>
     <string name="clevertap_account_token">CLEVERTAP_TOKEN</string>
     //dev and uat
-    <string name="ct_pid_value">TEST-KK8-W46-7K6Z</string>
-    <string name="ct_pt_value">TEST-640-b33</string>
+<!--    <string name="ct_pid_value">TEST-KK8-W46-7K6Z</string>-->
+<!--    <string name="ct_pt_value">TEST-640-b33</string>-->
     //prod
-<!--        <string name="ct_pid_value">RK8-W46-7K6Z</string>-->
-<!--        <string name="ct_pt_value">640-b32</string>-->
+        <string name="ct_pid_value">RK8-W46-7K6Z</string>
+        <string name="ct_pt_value">640-b32</string>
     <string name="clevertap_google_ad_id">CLEVERTAP_USE_GOOGLE_AD_ID</string>
     <string name="ct_google_ad_id_value">1</string>
     <string name="label_share_bank_details_to_unlock_profile">Share Bank Details To Add ₹360 To Unlock</string>
