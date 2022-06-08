@@ -5,8 +5,8 @@ plugins {
     id 'kotlin-kapt'
     id 'maven-publish'
 }
-group 'com.payu.baasSampleApp'
-version '0.1.4'
+//group 'com.payu.baasSampleApp'
+//version '0.1.5'
 android {
     compileSdkVersion 31
 
@@ -92,12 +92,12 @@ dependencies {
 afterEvaluate {
     publishing {
         publications {
-//            release(MavenPublication) {
-//                from components.release
-//                groupId = "com.payu.baasSampleApp"
-//                artifactId = 'baasSampleApp'
-//                version = '0.1.2'
-//            }
+            release(MavenPublication) {
+                from components.release
+                groupId = "com.payu.baasSampleApp"
+                artifactId = 'baas-core-sdk'
+                version = '0.1.5'
+            }
         }
         repositories {
             maven {

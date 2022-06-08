@@ -83,25 +83,3 @@ dependencies {
     implementation 'com.karza.okyc:ocycsdk:1.5.2'
 
 }
-//publishing {
-//    publications {
-//        publications {
-//            release(MavenPublication) {
-//                from components.release
-//                groupId = "com.payu.baasSampleApp"
-//                artifactId = 'baasSampleApp'
-//                version = '0.1.2'
-//            }
-//        }
-//    }
-//    repositories {
-//        maven {
-//            name = "BaaSUiGit" //  optional target repository name
-//            url = "http://my.org.server/repo/url"
-//            credentials {
-//                username = 'ManpreetKaurTuteja'
-//                password = 'Easy@2600'
-//            }
-//        }
-//    }
-//}

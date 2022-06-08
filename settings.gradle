@@ -1,4 +1,4 @@
-rootProject.name = "baasSampleApp"
+rootProject.name = "baas-core-sdk"
 //rootProject.name = "baas-sample-app-android"
 include ':app'
 include ':baas-core-sdk'
