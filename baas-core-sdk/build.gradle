@@ -6,7 +6,7 @@ plugins {
     id 'maven-publish'
 }
 group 'com.payu.baasSampleApp'
-version '0.1.3'
+version '0.1.4'
 android {
     compileSdkVersion 31
 
